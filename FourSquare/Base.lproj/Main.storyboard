@@ -214,21 +214,21 @@
             <objects>
                 <viewController id="iEl-3L-3Bb" customClass="AddPlaceVC" customModule="FourSquare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6oM-6B-agT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TH0-rN-atC">
-                                <rect key="frame" x="56" y="135" width="302" height="34"/>
+                                <rect key="frame" x="56" y="47" width="302" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place Type" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s2K-XF-7Ne">
-                                <rect key="frame" x="56" y="189" width="302" height="34"/>
+                                <rect key="frame" x="56" y="101" width="302" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place Athmosphere" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O9x-yc-Avr">
-                                <rect key="frame" x="56" y="243" width="302" height="34"/>
+                                <rect key="frame" x="56" y="155" width="302" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -354,6 +354,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Tfu-Vf-kZ5"/>
         <segue reference="g1z-kM-Pdr"/>
     </inferredMetricsTieBreakers>
     <resources>
